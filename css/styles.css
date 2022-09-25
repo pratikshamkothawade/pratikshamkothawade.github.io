@@ -1,0 +1,58 @@
+nav{
+    background-color: #14FFEC;
+}
+body{
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.name{
+    background-color: #14FFEC;
+    padding:20px 50px;
+    font-size: 30px;
+    color: #212121;
+    font-weight: 700;
+}
+.navbar bg-light px-3 mb-3{
+    background-color: #14FFEC;
+}
+.pp{
+    height: 200px;
+    width: 200px;
+}
+.body1, .body3, .body5, .body9, .body7{
+    padding: 8%;
+    text-align: center;
+    background-color: #14FFEC;
+}
+.body2, .body4, .body6, .body8{
+    padding: 8%;
+    color: white;
+    text-align: center;
+    background-color: #212121;
+}
+.list{
+    text-align: left;
+    padding-left: 60px;
+}
+.d-block w-100{
+    height: 50px;
+    width:50px;
+}
+.edu{
+    text-align: left;
+}
+img{
+    height: 600px;
+    width: 100px;
+}
+.mentee{
+    height: auto;
+    width: auto;
+    /* block-size: inline; */
+}
+h3{
+    color: aliceblue;
+}
+.card-text{
+    color: #212121;
+}
