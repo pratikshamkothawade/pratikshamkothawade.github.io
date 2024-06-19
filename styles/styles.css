@@ -1,0 +1,151 @@
+/* font-size:
+name: 30px
+heading: 38px
+intro:21px
+*/
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hori-line {
+    height: 1px;
+    background-color: #8C52FF;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+
+    .name {
+        font-size: 30px;
+        font-weight: 350;
+        align-items: flex-start;
+    }
+
+    .nav-items {
+        color: #020202;
+        display: flex;
+        margin: 0;
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        margin: 0 20px;
+    }
+}
+
+.home-section {
+    padding: 80px 80px;
+
+    .heading {
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .rocket-anime {
+        height: 50px;
+        width: 50px;
+    }
+
+    .intro {
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 35px;
+        margin: 60px 0 80px 0;
+    }
+
+    .more-btn {
+        background-color: #8C52FF;
+        border: none;
+        border-radius: 10px;
+        font-family: inherit;
+        font-size: 19px;
+        font-weight: 550;
+        padding: 12px 20px;
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.about-section {
+    padding: 80px 80px;
+    background-color: #FBF9FF;
+    display: flex;
+    align-items: center;
+
+    .about-title {
+        width: 100%;
+    }
+    .spark {
+        height: 80px;
+        width: 60px;
+        margin-bottom: 0;
+    }
+
+    .content {
+        display: flex;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .row-one {
+        width: 74%;
+        .para-one {
+            margin: 60px;
+        }
+        .para-two {
+            margin: 60px;
+        }
+    }
+    .para-three {
+        width: 50%;
+        margin: 60px;
+    }
+}
+
+.bold-title {
+    font-weight: 600;
+    border-bottom: 2px solid #8C52FF;
+}
+.bold {
+    font-weight: 500;
+}
+
+.contact-section {
+    color: white;
+    background-color: #8C52FF;
+    padding: 30px 70px;
+
+    .main-contact-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+    }
+
+    .title-name{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .title-social {
+        margin: 0;
+        color: #fffefe;
+    }
+
+    .copyrights {
+        text-align: center;
+        justify-content: space-between;
+    }
+    a {
+        color: #FBF9FF;
+        text-decoration: none;
+    }
+}
+
